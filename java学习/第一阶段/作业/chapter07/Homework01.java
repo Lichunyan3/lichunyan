@@ -4,7 +4,7 @@ public class Homework01{
 		A01 a1 = new A01();
 		Double res = a1.max(arr);
 		if(res != null){
-			System.out.println("arr的最大值为" + res);
+		System.out.println("arr的最大值为" + res);
 		}
 		
 		String[] str = {"jack","milan","lisa","joy"};

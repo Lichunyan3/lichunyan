@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Random;
+import java.util.*;
 public class Homework11{
 	public static void main(String[] args){
 		Tom t = new Tom();

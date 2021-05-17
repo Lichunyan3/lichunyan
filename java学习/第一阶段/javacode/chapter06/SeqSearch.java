@@ -16,13 +16,11 @@ public class SeqSearch{
 				index = indexNew;	
 			}
 		}
-		
+		for(int i = 0;i < index.length;i++){
+			System.out.println("找到了" + find + "索引是" + index[i]);
+		}
 		if(index[0] == -1){//说明没有找到
 			System.out.println("对不起，没有您想找的水果-" + find);
-		}else{
-			for(int i = 0;i < index.length;i++){
-				System.out.println("找到了" + find + "索引是" + index[i]);
-			}
 		}
 	}
 }
