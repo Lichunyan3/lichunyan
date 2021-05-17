@@ -1,0 +1,19 @@
+diff a/java学习/第一阶段/javacode/chapter06/SeqSearch.java b/java学习/第一阶段/javacode/chapter06/SeqSearch.java	(rejected hunks)
+@@ -16,13 +16,11 @@
+ 				index = indexNew;	
+ 			}
+ 		}
+-		
++		for(int i = 0;i < index.length;i++){
++			System.out.println("�ҵ���" + find + "������" + index[i]);
++		}
+ 		if(index[0] == -1){//˵��û���ҵ�
+ 			System.out.println("�Բ���û�������ҵ�ˮ��-" + find);
+-		}else{
+-			for(int i = 0;i < index.length;i++){
+-				System.out.println("�ҵ���" + find + "������" + index[i]);
+-			}
+ 		}
+ 	}
+ }
+\ No newline at end of file
